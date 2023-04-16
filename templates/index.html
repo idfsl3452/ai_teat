@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lottery Numbers</title>
+</head>
+<body>
+    <h1>Enter your lottery numbers:</h1>
+    <form action="/check_numbers" method="post">
+        <label for="number1">Number 1:</label>
+        <input type="number" name="numbers[]" id="number1" required max="26">
+        <br>
+        <label for="number2">Number 2:</label>
+        <input type="number" name="numbers[]" id="number2" required max="26">
+        <br>
+        <label for="number3">Number 3:</label>
+        <input type="number" name="numbers[]" id="number3" required max="26">
+        <br>
+        <label for="number4">Number 4:</label>
+        <input type="number" name="numbers[]" id="number4" required max="26">
+        <br>
+        <label for="number5">Number 5:</label>
+        <input type="number" name="numbers[]" id="number5" required max="26">
+        <br>
+        <label for="number6">Number 6:</label>
+        <input type="number" name="numbers[]" id="number6" required max="26">
+        <br>
+        <input type="submit" value="Check Numbers">
+    </form>
+</body>
+</html>
